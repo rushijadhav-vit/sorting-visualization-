@@ -257,36 +257,7 @@ public:
             << duration.count() / 1000 << " milliseconds" << endl;
     }
 
-    //QUICK SORT 
-   
-    //void swap(int* a, int* b)
-    //{
-    //    int t = *a;
-    //    *a = *b;
-    //    *b = t;
-    //}
-
-    //int partition(int arr[], int low, int high)
-    //{
-    //    int pivot = arr[high];    // pivot
-    //    int i = (low - 1);  // Index of smaller element
-
-    //    for (int j = low; j <= high - 1; j++)
-    //    {
-    //        // If current element is smaller than or
-    //        // equal to pivot
-    //        if (arr[j] <= pivot)
-    //        {
-    //            i++;    // increment index of smaller element
-    //            swap(&arr[i], &arr[j]);
-    //            visualize(i, j);
-    //            SDL_Delay(delay * 70);
-    //        }
-    //    }
-    //    swap(&arr[i + 1], &arr[high]);
-    //    visualize(i+1, high);
-    //    return (i + 1);
-    //}
+    //QUICK SORT
 
     int partition_array(int a[], int si, int ei)  ///quicksort
     { 
